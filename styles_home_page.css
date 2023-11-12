@@ -1,12 +1,16 @@
 body{
     background: #FFFFFF;
     justify-content: space-evenly;
-    background-color: conic-gradient(#006270 55%,#009394 5%,#00E0C7);;
+    background: linear-gradient(90deg,#08032b ,#282860 55% ,#08032b);
 }
-
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
 /*  top bar */
 .nav_bar{
-    background: linear-gradient(45deg,#006270 55%,#009394 5%,#00E0C7);
+    background: linear-gradient(45deg,#bba94e 55%,#11e8e8 5%,#4ee000);
     color: rgb(66, 82, 96);
     justify-content: space-between;
     display: flex;
@@ -22,14 +26,13 @@ body{
     flex-wrap:wrap;
     height: max-content;
     vertical-align: middle;
-    color:white;
+    color:rgb(22, 26, 81);
 }
-/* a:link{color: #fff;} */
 select{
     width:15px;
     height:20px;
-    background-color: rgb(7, 7, 41);
-    color: aliceblue;
+    background-color: #bba94e;
+    color: rgb(26, 73, 114);
     border: 0px;
 }
 h3{
@@ -54,9 +57,20 @@ h3{
     justify-content: space-evenly;
    
 }
+.model{
+    margin-right: 1em;
+    margin-bottom: 3em;
+    border-radius: 20px;
+    padding: 0px;
+    border: 2px dashed black;
+    background-image: url(tesla.jpg);
+    width: 200%;
+}
+
 .sub-division{
 
     display: flex;
+    overflow: hidden;
     /* box-shadow: 5px 10px 30px rgba(63, 251, 1, 0.452); */
 }
 .calculator,
@@ -65,12 +79,13 @@ h3{
 .News{
     width: 100%;
     background-color: #FAF9F6;
-    border: 2px solid black;
+    
     box-shadow: 0.8em 0.4em 3em rgb(40, 46, 79);
     border-radius: 20px;
     margin-bottom:0.5em; 
     padding: 1em 2em;
     text-align: center;
+    border: 2px dashed black;
 }
 .calculator,
 .charging{
@@ -80,4 +95,15 @@ h3{
 }
 .calculator{
     margin-right: 1em;
+}
+span{
+    text-align: left;
+    text-indent: 1em;
+    font-size: 20px ;
+}
+.cal_button{
+    margin-top:1em;
+}
+.specifics{
+    margin-bottom: 3em;
 }
